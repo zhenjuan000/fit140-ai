@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/fit140-ai/sw.js', { scope: '/fit140-ai/' })})}
